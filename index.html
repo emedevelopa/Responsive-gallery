@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>inspoow</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <h1 class="header__title">inspoow</h1>
+            <form action="" class="header__search">
+                <div class="search__container">
+                    <input type="text" id="header__search-input" placeholder="Search">
+                    <button class="header__search--btn" type="submit">
+                    <svg class="header__search--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(130, 130, 130, 1);transform:msFilter"><path d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"></path></svg>
+                    </button>
+                    <button class="header__remove--btn">
+                    <svg class="header__remove--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(130, 130, 130, 1);transform:msFilter"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg>
+                    </button>
+                </div>
+            </form>
+        </nav>
+        <ul id="filter-list" class="header__filters">
+            <li class="list"><a class="list__item" href="#" data-filter="animals">Animals</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="people">People</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="music">Music</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="travel">Travel</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="nature">Nature</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="colors">Colors</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="deco">Deco</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="game">Games</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="draw">Drawins</a></li>
+            <li class="list"><a class="list__item" href="#" data-filter="books">Books</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <div class="main__container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
