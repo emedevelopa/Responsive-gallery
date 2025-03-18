@@ -35,7 +35,6 @@
 
 .header__search{
     display: flex;
-    width: 50%;
 }
 
 .search__container{
@@ -96,7 +95,9 @@
     display: flex;
     width: 100%;
     gap: 1.5rem;
-
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
 }
 
 .list{
